@@ -1,5 +1,5 @@
 // Function to get all the dates in given range
-  public static function getDatesFromRange($start, $end = null, $format = 'd-m-Y'): array
+  function getDatesFromRange($start, $end = null, $format = 'd-m-Y'): array
   {
     $end ??= date($format);
 
